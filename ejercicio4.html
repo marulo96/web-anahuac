@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Ejercicio de diseño web">
+    <meta name="author" content="Maru Ruesga">
+    <title>Ejercicio 4, vivus.</title>
+  </head>
+  <body>
+    <div class="container">
+        <svg version="1.1" id="my-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 1280 1024"  onclick="music.reset().play();" style="enable-background:new 0 0 1280 1024;" xml:space="preserve">
+        <style type="text/css">
+        	.st0{fill:#FFFFFF;}
+        	.st1{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+        	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+        </style>
+        <g>
+        	<ellipse class="st0" cx="648" cy="618" rx="193.5" ry="184.5"/>
+        	<path d="M648,434c26.1,0,51.3,4.9,75.1,14.5c23,9.3,43.6,22.5,61.3,39.4c17.7,16.9,31.6,36.6,41.4,58.5
+        		c10.1,22.7,15.2,46.8,15.2,71.6s-5.1,48.9-15.2,71.6c-9.7,21.9-23.6,41.6-41.4,58.5c-17.7,16.9-38.4,30.2-61.3,39.4
+        		c-23.8,9.6-49.1,14.5-75.1,14.5s-51.3-4.9-75.1-14.5c-23-9.3-43.6-22.5-61.3-39.4c-17.7-16.9-31.6-36.6-41.4-58.5
+        		C460.1,666.9,455,642.8,455,618s5.1-48.9,15.2-71.6c9.7-21.9,23.6-41.6,41.4-58.5c17.7-16.9,38.4-30.2,61.3-39.4
+        		C596.7,438.9,621.9,434,648,434 M648,433c-107.1,0-194,82.8-194,185s86.9,185,194,185s194-82.8,194-185S755.1,433,648,433L648,433z
+        		"/>
+        </g>
+        <path class="st1" d="M649,169c63,0,114,55.7,114,124.5S712,418,649,418"/>
+        <path class="st2" d="M648.5,169.5v691c0,0-35-2-35,37s35,33,35,33"/>
+        <circle cx="648.5" cy="613.5" r="48.5"/>
+        </svg>
+
+  </div>
+
+    <script type="text/javascript" src="js/vivus.min.js"></script>
+    <script>
+    music = new Vivus ('my-svg', {type: 'sync', duration: 150});
+    </script>
+
+  </body>
+</html>
