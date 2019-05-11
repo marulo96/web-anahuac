@@ -1,0 +1,120 @@
+@-ms-viewport{
+    width: device-width;
+}
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+.container {
+    display: grid;
+    grid-gap:5 px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20vw 60vw 10vw;
+    grid-template-areas:
+    ". . ."
+    "sec sec sec"
+    ". . . "
+  }
+header{
+  background-image: url(../images/enconstruccion.jpg);
+  background-repeat: no-repeat;
+  grid-area: sec;
+
+}
+
+h1{
+  font-family: 'Major Mono Display', monospace;
+  font-size: 3rem;
+  color: beige;
+  justify-content: center;
+}
+
+p{
+  font-family: 'Major Mono Display', monospace;
+  font size: 5rem;
+  color: white;
+}
+
+/*
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .img {
+      grid-area:1/1/3/3;
+    }
+    .text{
+      grid-area: 2/1/3/3;
+      text-align: left;
+    }
+    body {
+      background-color: rgb(109, 109, 109)
+    }
+    h1{font-size: 2.8rem;}
+    //CSS
+  }
+
+  /*
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .img {
+      grid-area:1/1/3/3;
+    }
+    .text{
+      grid-area: 2/1/3/3;
+      text-align: left;
+    }
+    body {
+      background-color: rgb(109, 109, 109)
+    }
+    h1{font-size: 2.8rem;}
+
+    //CSS
+
+  }
+
+  /*
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+  @media (min-width: 481px) and (max-width: 767px) {
+    .img {
+      grid-area:1/1/1/1;
+    }
+    .text{
+      grid-area: 1/1/2/2;
+      text-align: left;
+    }
+    body {
+      background-color: rgb(109, 109, 109)
+    }
+    h1{font-size: 2.8rem;}
+    //CSS
+
+  }
+
+  /*
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    .img {
+      grid-area:1/1/3/1;
+    }
+    .text{
+      grid-area: 2/1/3/3;
+      text-align: left;
+    }
+    body {
+      background-color: rgb(109, 109, 109)
+    }
+    h1{font-size: 1.8rem;}
+    //CSS
+
+  }
