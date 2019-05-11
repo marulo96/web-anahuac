@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="ejercicio sobre shapes">
+    <meta name="author" content="Maru Ruesga">
+    <title>Ejercicio 5</title>
+    <style media="screen">
+    .container {
+      margin: 0 auto;
+      width: 80%;
+    }
+    #cat1 {
+      width: 200px;
+      float: left;
+      shape-outside: circle(50%);
+    }
+
+    #cat2 {
+    width: 400px;
+    float: right;
+    shape-outside: polygon(0 0, 10px 0, 20px 0);
+    }
+
+    #cat3 {
+      width: 300px;
+      float: left;
+      clip-path: ellipse(99px 96px at 54.67% 43.68%);
+      shape-outside: circle(50%);
+  }
+
+    #cat4 {
+      width: 300px;
+      float: left;
+      clip-path: ellipse(99px 96px at 62.67% 68.93%);
+      shape-outside: circle(50%);
+    }
+
+  }
+
+    #cat5 {
+      width: 300px;
+      float: left;
+      clip-path: url(#myClip)
+    }
+
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <section class='sec01'>
+        <h1>Shape outside; círculo.</h1>
+          <img id="cat1" src="images/cat.jpg" alt="Gato">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+      <section class='sec02'>
+        <h1>Shape outside; Polygon</h1>
+        <img id="cat2" src="images/cat.jpg" alt="Gato">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+      <section class='sec03'>
+        <h1>Clip path ellipse</h1>
+        <img id="cat3" src="images/cat.jpg" alt="Gato">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+      <section class='sec04'>
+        <h1>cuarta</h1>
+        <img id="cat4" src="images/cat.png" alt="Gato">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </section>
+
+      <section class='sec05'>
+        <h1>Con svg</h1>
+        <img id="cat5" src="images/cat.jpg" alt="Gato">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <svg width="0" height="0">
+      <defs>
+        <clipPath id="myClip">
+          <path class="st0"
+         d="M475,328l-14,6l-12,12l-9,12l-5,14l-8,9l-7,7l6,12l-1,8c0,0,2,12,5,13s13,4,13,4l12,6l7,7l5,16l-1,18l-12,22
+          	c0,0-3,12,0,18s15,40,15,40l22,29l12,22v21l-7,50l-1,17l-3,19l-9,12l-3,11c0,0,8,8,13,8s21,0,21,0l15-5l9-12c0,0,1-7,0-11s0-28,0-28
+          	s30,34,56,32v9l-9,3l-9,8c0,0,2,11,5,11s9,1,13,0s20,0,20,0h13l20-3l20-1l19,1l15-3l21-10l23-15l35-17l15-24c0,0,13-19,15-22
+          	s7-36,7-36v-40l-17-44l-16-40l-26-42l-4-22l-4-21l10-32l34-11l27,21v30l-23,17l-5,9l11,8l21-3l26-39v-24l-32-39l-55-4l-35,21l-9,45
+          	l25,93l32,37l13,33l9,31l-6,17l-10,27l-16,29l-18,14l4-52l-5-27c0,0-10-39-10-41s-17-53-17-53s-32-31-34-33s-58-27-58-27l-26-1
+          	l-12,6l-18-22l-5-53l-12-32l-16-21l-26-14h-9l-25-21l3,15l-13-19L475,328z"/>
+          </clipPath>
+        </defs>
+        </svg>
+      </section>
+
+    </div>
+    <!-- Comment -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+    ScrollReveal().reveal('sec01',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('sec02',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('sec03',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('sec04',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('sec05',{delay:300, scale: 0.85, reset: true});
+    </script>
+    
+  </body>
+</html>
