@@ -15,59 +15,65 @@
       float: left;
       shape-outside: circle(50%);
     }
+
     #cat2 {
     width: 400px;
     float: right;
     shape-outside: polygon(0 0, 10px 0, 20px 0);
     }
+
     #cat3 {
       width: 300px;
       float: left;
       clip-path: ellipse(99px 96px at 54.67% 43.68%);
       shape-outside: circle(50%);
   }
+
     #cat4 {
       width: 300px;
       float: left;
       clip-path: ellipse(99px 96px at 62.67% 68.93%);
       shape-outside: circle(50%);
     }
+
   }
+
     #cat5 {
       width: 300px;
       float: left;
       clip-path: url(#myClip)
     }
+
     </style>
 
   </head>
   <body>
     <div class="container">
-      <section class="sec01">
+      <section class='sec01'>
         <h1>Shape outside; círculo.</h1>
           <img id="cat1" src="images/cat.jpg" alt="Gato">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
 
-      <section class="sec02">
+      <section class='sec02'>
         <h1>Shape outside; Polygon</h1>
         <img id="cat2" src="images/cat.jpg" alt="Gato">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
 
-      <section class="sec03">
+      <section class='sec03'>
         <h1>Clip path ellipse</h1>
         <img id="cat3" src="images/cat.jpg" alt="Gato">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
 
-      <section class="sec04">
+      <section class='sec04'>
         <h1>cuarta</h1>
         <img id="cat4" src="images/cat.png" alt="Gato">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </section>
 
-      <section class="sec05">
+      <section class='sec05'>
         <h1>Con svg</h1>
         <img id="cat5" src="images/cat.jpg" alt="Gato">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -90,11 +96,11 @@
     <!-- Comment -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>
-    ScrollReveal().reveal('sec01',{delay:300, scale: 0.85, reset: true});
-    ScrollReveal().reveal('sec02',{delay:300, scale: 0.85, reset: true});
-    ScrollReveal().reveal('sec03',{delay:300, scale: 0.85, reset: true});
-    ScrollReveal().reveal('sec04',{delay:300, scale: 0.85, reset: true});
-    ScrollReveal().reveal('sec05',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('.sec01',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('.sec02',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('.sec03',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('.sec04',{delay:300, scale: 0.85, reset: true});
+    ScrollReveal().reveal('.sec05',{delay:300, scale: 0.85, reset: true});
     </script>
     
   </body>
